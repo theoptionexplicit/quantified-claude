@@ -1,0 +1,11 @@
+# Defensive: this repo should only ever contain the spec/docs, never real
+# personal data. If any of these ever land in this folder, keep them out of git.
+*.csv
+*.sqlite
+*.sqlite3
+*.pdf
+*.png
+*.jpg
+*.jpeg
+/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/
+.DS_Store
